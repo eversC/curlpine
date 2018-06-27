@@ -2,4 +2,4 @@ FROM alpine:3.7
 
 MAINTAINER Chris Every <eversmcc@gmail.com>
 
-RUN apk add --no-cache curl
+RUN apk add --no-cache curl jq && rm -rf /var/cache/apk/*
