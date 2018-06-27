@@ -4,7 +4,7 @@
 
 ..with:
 
-`RUN apk add --no-cache curl`
+`RUN apk add --no-cache curl jq && rm -rf /var/cache/apk/*`
 
 ....and that's it folks!
 
